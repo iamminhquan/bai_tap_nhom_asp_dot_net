@@ -1,9 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\",
+  "WorkspaceRootPath": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\zalo\\baitapnhom02_lan_02\\baitapnhom02_lan_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\nav.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:wwwroot\\css\\nav.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layouthead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layouthead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layoutheadindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layoutheadindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\2025\\aspnet_core\\baitap\\baitapnhom\\doannhom\\bai_tap_nhom_asp_dot_net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,10 +42,6 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
@@ -30,15 +50,97 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "nav.css",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\nav.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\nav.css",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\nav.css",
+              "RelativeToolTip": "wwwroot\\css\\nav.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-08T07:01:57.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:01:46.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutHeadNav.cshtml",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutHeadNav.cshtml",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutHeadNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T06:56:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutHead.cshtml",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHead.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutHead.cshtml",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHead.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutHead.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwBAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T06:52:55.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAASwC0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T06:52:15.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutHeadIndex.cshtml",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutHeadIndex.cshtml",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadIndex.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutHeadIndex.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T06:52:10.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Program.cs",
+              "DocumentMoniker": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Program.cs",
+              "ToolTip": "D:\\2025\\ASPNet_Core\\baitap\\BaiTapNhom\\DoAnNhom\\bai_tap_nhom_asp_dot_net\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
