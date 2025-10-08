@@ -125,5 +125,15 @@
     "C:\\Users\\Quan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.20\\microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
     "C:\\Users\\Quan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.20\\microsoft.netcore.app.host.win-x64.8.0.20.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

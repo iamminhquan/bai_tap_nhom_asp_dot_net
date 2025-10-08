@@ -18,40 +18,35 @@ public class HomeController : Controller
         ViewBag.isIndex = true;
         return View();
     }
-
     public IActionResult Single()
     {
         return View();
     }
-
     public IActionResult Bicycles()
     {
+        ViewBag.pageName = "Bicycles";
         return View();
     }
-
     public IActionResult Parts()
     {
+        ViewBag.pageName = "Parts";
         return View();
     }
-
     public IActionResult Cart()
     {
         return View();
     }
-
     public IActionResult Accessories()
     {
-        return View();
-    }
-
-    public IActionResult SignIn()
-    {
+        ViewBag.pageName = "Accessories";
         return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
+        ViewBag.pageName = "Extras";
         return View();
     }
 }
+//new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier }
