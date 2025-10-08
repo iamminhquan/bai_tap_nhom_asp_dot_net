@@ -233,6 +233,7 @@ wwwroot\css\bootstrap.css
 wwwroot\css\etalage.css
 wwwroot\css\form.css
 wwwroot\css\nav.css
+wwwroot\css\sign_in_page.css
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico

@@ -25,24 +25,33 @@ ul.nav{
 	list-style:none;
 }
 li.dropdown1 {
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
 }
-li.dropdown1:hover{
-	background:#fcff19;
-	color:#000;
-}
+
+	li.dropdown1:hover {
+		background: #fcff19;
+		color: #000;
+	}
 /* Main element of the naviagtion */
 .nav > li {
-	  display: inline-block;
-  float: left;
-  background: none; 
+	display: inline-block;
+	float: left;
+	background: none;
 }
+
 .nav li.active, .nav li a:hover {
-  color: #fff;
+	color: #fff;
+	border-radius: 8px;
+	background-color: #fcff19;
 }
-.nav > li:nth-child(5){
-	background:none;
+
+	.nav li.active > a {
+		color: black;
+	}
+
+.nav > li:nth-child(5) {
+	background: none;
 }
 /* Link Style */
 .nav > li > a {
