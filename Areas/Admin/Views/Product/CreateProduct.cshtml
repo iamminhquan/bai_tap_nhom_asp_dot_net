@@ -1,0 +1,69 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Create Product Into Database";
+}
+
+<h2>Create New Product Into Database</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <div class="alert alert-info">@ViewBag.Message</div>
+}
+
+<form asp-controller="Product" asp-action="CreateProduct" method="post">
+    <div class="form-group">
+        <label>Product Name:</label>
+        <input type="text" name="productName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Price:</label>
+        <input type="number" step="0.01" name="price" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Promotion Price:</label>
+        <input type="number" step="0.01" name="promotionPrice" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <textarea name="description" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Tag Name:</label>
+        <input type="text" name="tagName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Category ID:</label>
+        <input type="number" name="categoryId" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Create Product</button>
+    <a class="btn btn-primary" asp-area="Admin" asp-controller="Home" asp-action="ProductManagement">Back ProductManagement</a>
+</form>
+
+<style>
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-control {
+        width: 300px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    .alert {
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .alert-info {
+        background-color: #d1ecf1;
+        color: #0c5460;
+    }
+</style>

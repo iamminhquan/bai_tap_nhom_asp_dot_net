@@ -1,0 +1,205 @@
+﻿@{
+    var isIndex = (ViewBag.isIndex != null) ? ViewBag.isIndex : false;
+}
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Shop a Ecommerce Category Flat Bootstarp Responsive Website Template| Home :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Bike-shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <link href="~/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/css/form.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+    <link href="~/css/nav.css" rel="stylesheet" type="text/css" media="all" />
+    @RenderSection("Style", required: false)
+    <script src="~/js/jquery.min.js"></script>
+    @RenderSection("Scripts", required: false)
+    <script type="~/application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script>
+        $(function () {
+            $("#slider").responsiveSlides({
+                auto: false,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+</head>
+<body>
+    @if (isIndex)
+    {
+        <div class="banner-bg banner-bg1">
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" alt="" /></a>
+                    </div>
+                    <div class="top-nav">
+                        <label class="mobile_menu" for="mobile_menu">
+                            <span>Menu</span>
+                        </label>
+                        <input id="mobile_menu" type="checkbox">
+                        <ul class="nav">
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Bicycles">BICYCLES</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Bicycles">FIXED / SINGLE SPEED</a></li>
+                                    <li><a asp-controller="Home" asp-action="Bicycles">CITY BIKES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Bicycles">PREMIMUN SERIES</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Parts">PARTS</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Parts">CHAINS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">TUBES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">TIRES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">DISC BREAKS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Accessories">ACCESSORIES</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Accessories">LOCKS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">HELMETS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">ARM COVERS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">JERSEYS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Error">EXTRAS</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Error">CLASSIC BELL</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">BOTTLE CAGE</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">TRUCK GRIP</a></li>
+                                </ul>
+                            </li>
+                            <a class="shop" asp-controller="Home" asp-action="Cart"><img src="~/images/cart.png" alt="" /></a>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="caption">
+                <div class="slider">
+                    <div class="callbacks_container">
+                        <ul class="rslides" id="slider">
+                            <li><h1>HANDMADE BICYCLE</h1></li>
+                            <li><h1>SPEED BICYCLE</h1></li>
+                            <li><h1>MOUINTAIN BICYCLE</h1></li>
+                        </ul>
+                        <p>You <span>create</span> the <span>journey,</span> we supply the <span>parts</span></p>
+                        <a class="morebtn" asp-controller="Home" asp-action="Bicycles">SHOP BIKES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dwn">
+                <a class="scroll" href="#cate"><img src="~/images/scroll.png" alt="" /></a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="banner-bg banner-sec">
+            <div class="container">
+                <div class="header">
+                    <div class="logo">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" alt="" /></a>
+                    </div>
+                    <div class="top-nav">
+                        <label class="mobile_menu" for="mobile_menu">
+                            <span>Menu</span>
+                        </label>
+                        <input id="mobile_menu" type="checkbox">
+                        <ul class="nav">
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Bicycles">BICYCLES</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Bicycles">FIXED / SINGLE SPEED</a></li>
+                                    <li><a asp-controller="Home" asp-action="Bicycles">CITY BIKES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Bicycles">PREMIMUN SERIES</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Parts">PARTS</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Parts">CHAINS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">TUBES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">TIRES</a></li>
+                                    <li><a asp-controller="Home" asp-action="Parts">DISC BREAKS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Accessories">ACCESSORIES</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Accessories">LOCKS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">HELMETS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">ARM COVERS</a></li>
+                                    <li><a asp-controller="Home" asp-action="Accessories">JERSEYS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Error">EXTRAS</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Error">CLASSIC BELL</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">BOTTLE CAGE</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">TRUCK GRIP</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Error">Sign in</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Error">CLASSIC BELL</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">BOTTLE CAGE</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">TRUCK GRIP</a></li>
+                                </ul>
+                            </li>
+                            @* <li class="dropdown1">
+                                <a asp-controller="Home" asp-action="Error">Sign in</a>
+                                <ul class="dropdown2">
+                                    <li><a asp-controller="Home" asp-action="Error">CLASSIC BELL</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">BOTTLE CAGE</a></li>
+                                    <li><a asp-controller="Home" asp-action="Error">TRUCK GRIP</a></li>
+                                </ul>
+                            </li> *@
+                            <a class="shop" asp-controller="Home" asp-action="Cart"><img src="~/images/cart.png" alt="" /></a>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+    }
+    @RenderBody();
+    <div class="footer">
+        <div class="container wrap">
+            <div class="logo2">
+                <a asp-controller="Home" asp-action="Index"><img src="~/images/logo2.png" alt="" /></a>
+            </div>
+            <div class="ftr-menu">
+                <ul>
+                    <li><a asp-controller="Home" asp-action="Bicycles">BICYCLES</a></li>
+                    <li><a asp-controller="Home" asp-action="Parts">PARTS</a></li>
+                    <li><a asp-controller="Home" asp-action="Accessories">ACCESSORIES</a></li>
+                    <li><a asp-controller="Home" asp-action="Error">EXTRAS</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!---->
+
+</body>
+</html>
