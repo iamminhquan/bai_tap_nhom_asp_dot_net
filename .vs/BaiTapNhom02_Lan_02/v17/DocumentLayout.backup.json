@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\zalo\\baitapnhom02_lan_02\\baitapnhom02_lan_02\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\zalo\\baitapnhom02_lan_02\\baitapnhom02_lan_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Services\\ProductServices.cs",
-              "RelativeDocumentMoniker": "Services\\ProductServices.cs",
-              "ToolTip": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Services\\ProductServices.cs",
-              "RelativeToolTip": "Services\\ProductServices.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T17:24:08.914Z",
+              "WhenOpened": "2025-10-08T06:08:49.965Z",
               "EditorCaption": ""
             }
           ]

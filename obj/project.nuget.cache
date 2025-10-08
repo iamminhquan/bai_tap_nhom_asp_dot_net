@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nb3+XPK+AjQ=",
+  "dgSpecHash": "9hJg3IZyfe4=",
   "success": true,
-  "projectFilePath": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02.csproj",
+  "projectFilePath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Quan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Quan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

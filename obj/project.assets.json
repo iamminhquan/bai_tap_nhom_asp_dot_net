@@ -5572,11 +5572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02.csproj",
+      "projectUniqueName": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
       "projectName": "BaiTapNhom02_Lan_02",
-      "projectPath": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02.csproj",
+      "projectPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
       "packagesPath": "C:\\Users\\Quan\\.nuget\\packages\\",
-      "outputPath": "D:\\zalo\\BaiTapNhom02_Lan_02\\BaiTapNhom02_Lan_02\\obj\\",
+      "outputPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

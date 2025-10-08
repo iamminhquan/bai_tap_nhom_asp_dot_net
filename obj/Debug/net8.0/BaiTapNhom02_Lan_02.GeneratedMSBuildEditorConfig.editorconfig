@@ -17,89 +17,89 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaiTapNhom02_Lan_02
 build_property.RootNamespace = BaiTapNhom02_Lan_02
-build_property.ProjectDir = D:\zalo\BaiTapNhom02_Lan_02\BaiTapNhom02_Lan_02\
+build_property.ProjectDir = D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\zalo\BaiTapNhom02_Lan_02\BaiTapNhom02_Lan_02
+build_property.MSBuildProjectDirectory = D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/Home/Management.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/Home/Management.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxNYW5hZ2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/Home/ProductManagement.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/Home/ProductManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcm9kdWN0TWFuYWdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/Product/CreateProduct.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/Product/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Accessories.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Accessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3Nvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Bicycles.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Bicycles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCaWN5Y2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Cart.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Index.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Parts.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Parts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/SignIn.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Home/Single.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Home/Single.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Shared/Error.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/_ViewImports.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/_ViewStart.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0mbh11dc8b
 
-[D:/zalo/BaiTapNhom02_Lan_02/BaiTapNhom02_Lan_02/Views/Shared/_Layout.cshtml]
+[D:/workspace/coding/c_sharp/dotnet/bai_tap_nhom_asp_dot_net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ytyjzzj5r5
