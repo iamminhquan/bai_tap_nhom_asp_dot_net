@@ -1,16 +1,19 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BaiTapNhom02_Lan_02.Models;
+using BaiTapNhom02_Lan_02.Services;
 
 namespace BaiTapNhom02_Lan_02.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly ProductServices _productServices;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, ProductServices productServices)
     {
         _logger = logger;
+        _productServices = productServices;
     }
 
     public IActionResult Index()
@@ -24,8 +27,9 @@ public class HomeController : Controller
     }
     public IActionResult Bicycles()
     {
-        ViewBag.pageName = "Bicycles";
-        return View();
+        //ViewBag.pageName = "Bicycles";
+        var products = _productServices.GetAllProducts();
+        return View(products);
     }
     public IActionResult Parts()
     {
