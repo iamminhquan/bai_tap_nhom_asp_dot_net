@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_in_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:wwwroot\\css\\sign_in_page.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "sign_in_page.css",
-              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_in_page.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\sign_in_page.css",
-              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_in_page.css",
-              "RelativeToolTip": "wwwroot\\css\\sign_in_page.css",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-08T16:36:43.507Z",
+              "Title": "_LayoutHeadNav.cshtml",
+              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutHeadNav.cshtml",
+              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutHeadNav.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T07:06:06.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Home\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\SignIn.cshtml",
-              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Home\\SignIn.cshtml",
-              "RelativeToolTip": "Views\\Home\\SignIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T16:17:48.697Z",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:59:52.302Z",
               "EditorCaption": ""
             }
           ]
