@@ -1,5 +1,5 @@
 ﻿using BaiTapNhom02_Lan_02.Database;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 
 
 
