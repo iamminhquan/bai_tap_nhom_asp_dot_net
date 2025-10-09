@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 ﻿using Microsoft.AspNetCore.Mvc;
+=======
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using BaiTapNhom02_Lan_02.Models;
+using BaiTapNhom02_Lan_02.Services;
+>>>>>>> AnhNgonLuyen_AddProductFeature
 
 // Minh Quân.
 // Đưa class HomeController vào namespace BaiTapNhom02_Lan_02.Controllers.
 // Ngày chỉnh sửa: 08/10/2025 - 11:25 PM.
 namespace BaiTapNhom02_Lan_02.Controllers
 {
+<<<<<<< HEAD
     // Minh Quân.
     // Thay default contructor bằng primary contructor.
     // Ngày chỉnh sửa: 08/10/2025 - 11:27 PM.
@@ -22,6 +30,46 @@ namespace BaiTapNhom02_Lan_02.Controllers
         {
             return View();
         }
+=======
+    private readonly ILogger<HomeController> _logger;
+    private readonly ProductServices _productServices;
+
+    public HomeController(ILogger<HomeController> logger, ProductServices productServices)
+    {
+        _logger = logger;
+        _productServices = productServices;
+    }
+
+    public IActionResult Index()
+    {
+        ViewBag.isIndex = true;
+        return View();
+    }
+    public IActionResult Single()
+    {
+        return View();
+    }
+    public IActionResult Bicycles()
+    {
+        //ViewBag.pageName = "Bicycles";
+        var products = _productServices.GetAllProducts();
+        return View(products);
+    }
+    public IActionResult Parts()
+    {
+        ViewBag.pageName = "Parts";
+        return View();
+    }
+    public IActionResult Cart()
+    {
+        return View();
+    }
+    public IActionResult Accessories()
+    {
+        ViewBag.pageName = "Accessories";
+        return View();
+    }
+>>>>>>> AnhNgonLuyen_AddProductFeature
 
         public IActionResult Bicycles()
         {

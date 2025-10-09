@@ -1,69 +1,82 @@
-﻿@model dynamic
+﻿@model BaiTapNhom02_Lan_02.Models.Product
 
 @{
-    ViewData["Title"] = "Create Product Into Database";
+    ViewData["Title"] = "Thêm sản phẩm mới";
 }
 
-<h2>Create New Product Into Database</h2>
+<div class="container mt-5">
+    <h2 class="text-center mb-4 fa fa-img-">Thêm sản phẩm mới</h2>
 
-@if (!string.IsNullOrEmpty(ViewBag.Message))
-{
-    <div class="alert alert-info">@ViewBag.Message</div>
-}
+    <form asp-action="CreateProduct" asp-controller="Product" method="post" enctype="multipart/form-data" class="shadow p-4 rounded bg-light">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="ProductName" class="form-label">Tên sản phẩm</label>
+                <input asp-for="ProductName" class="form-control" placeholder="Nhập tên sản phẩm" required />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Price" class="form-label">Giá gốc</label>
+                <input asp-for="Price" type="number" class="form-control" placeholder="Giá gốc" required />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="PromotionPrice" class="form-label">Giá khuyến mãi</label>
+                <input asp-for="PromotionPrice" type="number" class="form-control" placeholder="Giá khuyến mãi (nếu có)" />
+            </div>
+        </div>
 
-<form asp-controller="Product" asp-action="CreateProduct" method="post">
-    <div class="form-group">
-        <label>Product Name:</label>
-        <input type="text" name="productName" class="form-control" required />
-    </div>
-    <div class="form-group">
-        <label>Price:</label>
-        <input type="number" step="0.01" name="price" class="form-control" required />
-    </div>
-    <div class="form-group">
-        <label>Promotion Price:</label>
-        <input type="number" step="0.01" name="promotionPrice" class="form-control" required />
-    </div>
-    <div class="form-group">
-        <label>Description:</label>
-        <textarea name="description" class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-        <label>Tag Name:</label>
-        <input type="text" name="tagName" class="form-control" />
-    </div>
-    <div class="form-group">
-        <label>Category ID:</label>
-        <input type="number" name="categoryId" class="form-control" required />
-    </div>
-    <button type="submit" class="btn btn-primary">Create Product</button>
-    <a class="btn btn-primary" asp-area="Admin" asp-controller="Home" asp-action="ProductManagement">Back ProductManagement</a>
-</form>
+        <div class="mb-3">
+            <label asp-for="ProductDescription" class="form-label">Mô tả sản phẩm</label>
+            <textarea asp-for="ProductDescription" class="form-control" rows="4" placeholder="Nhập mô tả chi tiết sản phẩm"></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Product Type</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="ProductType" value="Bike" id="bike" />
+                <label class="form-check-label" for="bike">Bike</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="ProductType" value="Part" id="part" />
+                <label class="form-check-label" for="part">Part</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="ProductType" value="Accessories" id="accessories" />
+                <label class="form-check-label" for="accessories">Accessories</label>
+            </div>
+            <span asp-validation-for="ProductType" class="text-danger"></span>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="TagName" class="form-label">Tag</label>
+                <input asp-for="TagName" class="form-control" placeholder="Nhập tag (nếu có)" />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="CategoryId" class="form-label">Danh mục</label>
+                <input asp-for="CategoryId" type="number" class="form-control" placeholder="Nhập mã danh mục" required />
+            </div>
+            <div class="col-md-3">
+                <label asp-for="States" class="form-label">Trạng thái</label>
+                <select asp-for="States" class="form-select">
+                    <option value="1">Đang bán</option>
+                    <option value="0">Ngừng bán</option>
+                </select>
+            </div>
+        </div>
 
-<style>
-    .form-group {
-        margin-bottom: 15px;
+        <div class="mb-3">
+            <label asp-for="ImageUrl" class="form-label">Hình ảnh sản phẩm</label>
+            <input asp-for="ImageUrl" type="text" class="form-control" placeholder="Nhập tên file ảnh (vd: bik1.jpg)" />
+            <small class="text-muted">Nếu ảnh đã có trong thư mục <code>wwwroot/images/products/</code>, chỉ cần nhập tên file.</small>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary px-5">Lưu sản phẩm</button>
+            <a asp-action="ProductList" asp-controller="Product" class="btn btn-secondary ms-2">Quay lại</a>
+        </div>
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-info mt-4 text-center">
+            @ViewBag.Message
+        </div>
     }
-    .form-control {
-        width: 300px;
-    }
-    .btn-primary {
-        background-color: #007bff;
-        color: white;
-        padding: 5px 10px;
-        border: none;
-        cursor: pointer;
-    }
-    .btn-primary:hover {
-        background-color: #0056b3;
-    }
-    .alert {
-        padding: 10px;
-        margin-bottom: 15px;
-        border-radius: 5px;
-    }
-    .alert-info {
-        background-color: #d1ecf1;
-        color: #0c5460;
-    }
-</style>
+</div>

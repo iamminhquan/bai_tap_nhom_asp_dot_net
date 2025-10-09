@@ -1,4 +1,4 @@
-﻿namespace BaiTapNhom02_Lan_02.Database.Models
+﻿namespace BaiTapNhom02_Lan_02.Models
 {
     public class Product
     {
@@ -9,6 +9,7 @@
         public string? ProductDescription { get; set; }
         public string? TagName { get; set; }
         public int CategoryId { get; set; }
+        public string? ProductType {  get; set; }
         public int States { get; set; }
         public string? ImageUrl { get; set; } // từ bảng ProductImages
     }
