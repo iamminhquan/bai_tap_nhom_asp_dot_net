@@ -10,31 +10,22 @@ GO
 CREATE TABLE Products (
     ProductId INT PRIMARY KEY IDENTITY(1, 1),
     ProductName NVARCHAR(100) NOT NULL,
-    Price MONEY NOT NULL,
-    PromotionPrice MONEY NOT NULL,
+    ImageUrl NVARCHAR(255) NULL,
+    Price DECIMAL(18, 2) NOT NULL,
+    PromotionPrice DECIMAL(18, 2) NOT NULL,
     ProductDescription NVARCHAR(255) NULL,
     TagName NVARCHAR(100) NULL,
     CategoryId INT NOT NULL,                 -- FK to Categories
-    States TINYINT NOT NULL DEFAULT 1        -- 0 = Stopped, 1 = On Sale, 2 = Out of Stock, 3 = Hidden
-);
-
--- ===========================================
--- PRODUCT IMAGES
--- ===========================================
-CREATE TABLE ProductImages (
-    ImageId INT PRIMARY KEY IDENTITY(1, 1),
-    ProductId INT NOT NULL,                  -- FK to Products
-    ImageUrl NVARCHAR(255) NOT NULL,         -- Image link
-    SortOrder INT DEFAULT 0,                 -- Used to sort images
-    FOREIGN KEY (ProductId) REFERENCES Products(ProductId)
+    States TINYINT NOT NULL DEFAULT 1,       -- 0 = Stopped, 1 = On Sale, 2 = Out of Stock, 3 = Hidden
+    ProductType NVARCHAR(255) NOT NULL
 );
 
 -- ===========================================
 -- TAG NAME
 -- ===========================================
-CREATE TABLE TagName (
+CREATE TABLE Tags (
     TagId INT PRIMARY KEY IDENTITY(1, 1),
-    NameTag NVARCHAR(100) NOT NULL
+    TagName NVARCHAR(100) NOT NULL
 );
 
 -- ===========================================
@@ -43,7 +34,6 @@ CREATE TABLE TagName (
 CREATE TABLE Categories (
     CategoryId INT PRIMARY KEY IDENTITY(1, 1),
     CategoryName NVARCHAR(100) NOT NULL,
-    ParentId INT NULL,
     States TINYINT NOT NULL DEFAULT 1,       -- 0 = Stopped, 1 = On Sale, 2 = Out of Stock, 3 = Hidden
     Slug NVARCHAR(150) NULL
 );
@@ -63,38 +53,34 @@ CREATE TABLE Reviews (
 );
 
 -- ===========================================
--- STAFFS
+-- USERS
 -- ===========================================
-CREATE TABLE Staffs (
-    StaffId INT PRIMARY KEY IDENTITY(1, 1),
-    StaffName NVARCHAR(100) NOT NULL,
-    AccountName NVARCHAR(50) NOT NULL UNIQUE,
-    AccountPassword NVARCHAR(255) NOT NULL,
-    StaffAddress NVARCHAR(255) NOT NULL,
-    PhoneNumber NVARCHAR(10) NOT NULL,
-    Email NVARCHAR(50) NOT NULL,
-    DateOfBirth DATE NOT NULL,
-    Gender NVARCHAR(6) DEFAULT N'MALE',
-    StartDate DATE NOT NULL DEFAULT GETDATE(),
-    Salary MONEY NOT NULL,
-    States TINYINT NOT NULL DEFAULT 1,       -- 0 = Inactive, 1 = Active
-    Roles TINYINT NOT NULL                   -- Role = Admin or Staff
+CREATE TABLE Users (
+    UserId INT IDENTITY PRIMARY KEY,
+    Username NVARCHAR(100) NOT NULL,
+    HashedPassword NVARCHAR(255) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Roles TINYINT NOT NULL, -- 0=Customer, 1=Staff, 2=Admin
+    States TINYINT DEFAULT 1
 );
 
 -- ===========================================
 -- CUSTOMERS
 -- ===========================================
 CREATE TABLE Customers (
-    CustomerId INT PRIMARY KEY IDENTITY(1, 1),
-    CustomerName NVARCHAR(100) NOT NULL,
-    CustomerUsername NVARCHAR(50) NOT NULL UNIQUE,
-    CustomerPassword NVARCHAR(255) NOT NULL,
-    CustomerAddress NVARCHAR(255) NOT NULL,
-    PhoneNumber NVARCHAR(10) NOT NULL,
-    Email NVARCHAR(50) NOT NULL,
-    DateOfBirth DATE NOT NULL,
-    Gender NVARCHAR(6) DEFAULT N'MALE',
-    States TINYINT NOT NULL DEFAULT 1        -- 0 = Inactive, 1 = Active
+    CustomerId INT IDENTITY PRIMARY KEY,
+    UserId INT NOT NULL FOREIGN KEY REFERENCES Users(UserId),
+    Address NVARCHAR(255)
+);
+
+-- ===========================================
+-- STAFFS
+-- ===========================================
+CREATE TABLE Staffs (
+    StaffId INT IDENTITY PRIMARY KEY,
+    UserId INT NOT NULL FOREIGN KEY REFERENCES Users(UserId),
+    StartDate DATETIME DEFAULT GETDATE(),
+    Salary DECIMAL(18, 2)
 );
 
 -- ===========================================
@@ -107,7 +93,7 @@ CREATE TABLE Bills (
     StaffId INT NOT NULL,                    -- FK to Staffs
     OrderDate DATETIME NOT NULL DEFAULT GETDATE(),
     TotalItems INT NOT NULL,                 -- Total quantity
-    TotalAmount MONEY NOT NULL               -- Total payment
+    TotalAmount DECIMAL(18, 2) NOT NULL               -- Total payment
 );
 
 -- ===========================================
@@ -118,10 +104,10 @@ CREATE TABLE BillDetail (
     OrderId INT NOT NULL,                    -- FK to Bills
     ProductId INT NOT NULL,                  -- FK to Products
     ProductName NVARCHAR(100) NOT NULL,
-    Price MONEY NOT NULL,
-    PromotionPrice MONEY NOT NULL,
+    Price DECIMAL(18, 2) NOT NULL,
+    PromotionPrice DECIMAL(18, 2) NOT NULL,
     Quantity INT NOT NULL,
-    TotalPrice MONEY NOT NULL
+    TotalPrice DECIMAL(18, 2) NOT NULL
 );
 
 -- ===========================================
