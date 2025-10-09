@@ -72,12 +72,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/NTNguyen/HocTap/BAITAP/BaiTap_ASPNETCORE/bai_tap_nhom_asp_dot_net/Views/Home/SignIn.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduSW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/NTNguyen/HocTap/BAITAP/BaiTap_ASPNETCORE/bai_tap_nhom_asp_dot_net/Views/Home/Single.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NTNguyen/HocTap/BAITAP/BaiTap_ASPNETCORE/bai_tap_nhom_asp_dot_net/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/NTNguyen/HocTap/BAITAP/BaiTap_ASPNETCORE/bai_tap_nhom_asp_dot_net/Views/Login/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/NTNguyen/HocTap/BAITAP/BaiTap_ASPNETCORE/bai_tap_nhom_asp_dot_net/Views/Shared/Error.cshtml]

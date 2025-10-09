@@ -1,9 +1,11 @@
 ﻿using BaiTapNhom02_Lan_02.Database;
 using BaiTapNhom02_Lan_02.Models;
 using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
 
+
+// Thái Nguyên
+// chinh sua lai toan bo ProductService.cs 
+// Ngày chỉnh sửa: 09/10/2025 - 21h50p
 namespace BaiTapNhom02_Lan_02.Services
 {
     public class ProductServices
@@ -23,26 +25,11 @@ namespace BaiTapNhom02_Lan_02.Services
             {
                 using (var connection = _connectDatabase.GetConnection())
                 {
-                    string query = @"
-                    SELECT 
-                        p.ProductId, 
-                        p.ProductName, 
-                        p.Price, 
-                        p.PromotionPrice, 
-                        p.ProductDescription, 
-                        p.TagName, 
-                        p.CategoryId, 
-                        p.States,
-                        img.ImageUrl
-                    FROM Products p
-                    OUTER APPLY (
-                        SELECT TOP 1 i.ImageUrl
-                        FROM ProductImages i
-                        WHERE i.ProductId = p.ProductId
-                        ORDER BY i.SortOrder ASC
-                    ) img
-                    WHERE p.States = 1;
-                    ";
+                    // Thái Nguyên
+                    // chỉnh sửa lại query 
+                    // Ngày chỉnh sửa: 09/10/2025 - 21h35P
+
+                    string query = "SELECT * FROM Products";
 
                     using (var cmd = new SqlCommand(query, connection))
                     {
@@ -77,39 +64,27 @@ namespace BaiTapNhom02_Lan_02.Services
                     {
                         try
                         {
-                            string queryProduct = @"
-                                INSERT INTO Products 
-                                (ProductName, Price, PromotionPrice, ProductDescription, TagName, CategoryId, States)
-                                VALUES (@ProductName, @Price, @PromotionPrice, @ProductDescription, @TagName, @CategoryId, @States);
-                                SELECT CAST(SCOPE_IDENTITY() AS INT);";
+                            // Thái Nguyên
+                            // chỉnh sửa lại query 
+                            // Ngày chỉnh sửa: 09/10/2025 - 21h35p
 
-                            int newProductId;
+                            string queryProduct = @"INSERT INTO Products
+                                (ProductName, ImageUrl, Price, PromotionPrice, ProductDescription, TagName, CategoryId, States, ProductType)
+                                VALUES
+                                (@ProductName, @ImageUrl, @Price, @PromotionPrice, @ProductDescription, @TagName, @CategoryId, @States, @ProductType)";
+
                             using (var cmd = new SqlCommand(queryProduct, connection, transaction))
                             {
                                 AddCommandProduct(cmd, product);
-                                newProductId = Convert.ToInt32(cmd.ExecuteScalar());
-                            }
-
-                            // Nếu có ảnh thì thêm vào ProductImages
-                            if (!string.IsNullOrEmpty(product.ImageUrl))
-                            {
-                                string queryImage = @"
-                                    INSERT INTO ProductImages (ProductId, ImageUrl, SortOrder)
-                                    VALUES (@ProductId, @ImageUrl, 0);";
-
-                                using (var imageCmd = new SqlCommand(queryImage, connection, transaction))
-                                {
-                                    imageCmd.Parameters.AddWithValue("@ProductId", newProductId);
-                                    imageCmd.Parameters.AddWithValue("@ImageUrl", product.ImageUrl);
-                                    imageCmd.ExecuteNonQuery();
-                                }
+                                cmd.ExecuteNonQuery();
                             }
 
                             transaction.Commit();
-                           
+                            return true;
                         }
                         catch (Exception ex)
                         {
+                            transaction.Rollback();
                             throw new Exception("Lỗi khi thêm sản phẩm", ex);
                         }
                     }
@@ -119,7 +94,6 @@ namespace BaiTapNhom02_Lan_02.Services
             {
                 throw new Exception("Lỗi kết nối CSDL khi thêm sản phẩm", ex);
             }
-            return false;
         }
 
         // Map dữ liệu từ SqlDataReader sang Product
@@ -135,7 +109,8 @@ namespace BaiTapNhom02_Lan_02.Services
                 TagName = reader["TagName"]?.ToString(),
                 CategoryId = reader["CategoryId"] != DBNull.Value ? Convert.ToInt32(reader["CategoryId"]) : 0,
                 States = reader["States"] != DBNull.Value ? Convert.ToInt32(reader["States"]) : 0,
-                ImageUrl = reader["ImageUrl"]?.ToString()
+                ImageUrl = reader["ImageUrl"]?.ToString(),
+                ProductType = reader["ProductType"]?.ToString()
             };
         }
 
@@ -143,19 +118,19 @@ namespace BaiTapNhom02_Lan_02.Services
         private void AddCommandProduct(SqlCommand command, Product product)
         {
             command.Parameters.AddWithValue("@ProductName", product.ProductName);
+            command.Parameters.AddWithValue("@ImageUrl", (object?)product.ImageUrl ?? DBNull.Value);
             command.Parameters.AddWithValue("@Price", product.Price);
             command.Parameters.AddWithValue("@PromotionPrice", product.PromotionPrice);
             command.Parameters.AddWithValue("@ProductDescription", (object?)product.ProductDescription ?? DBNull.Value);
             command.Parameters.AddWithValue("@TagName", (object?)product.TagName ?? DBNull.Value);
             command.Parameters.AddWithValue("@CategoryId", product.CategoryId);
             command.Parameters.AddWithValue("@States", product.States);
+            command.Parameters.AddWithValue("@ProductType", (object?)product.ProductType ?? DBNull.Value);
         }
 
-        // Các hàm chưa triển khai
+        // Các hàm chưa yeu cau
         public void UpdateList(List<Product> list)
         {
-            //_dsSanPham.Clear();
-            //_dsSanPham.AddRange(list);
         }
 
         public Product? GetById(int id)

@@ -4,74 +4,76 @@
     ViewData["Title"] = "Thêm sản phẩm mới";
 }
 
-<div class="container mt-5">
-    <h2 class="text-center mb-4 fa fa-img-">Thêm sản phẩm mới</h2>
+<h2 class="text-center mt-3 mb-4">Thêm sản phẩm mới</h2>
 
-    <form asp-action="CreateProduct" asp-controller="Product" method="post" enctype="multipart/form-data" class="shadow p-4 rounded bg-light">
-        <div class="row mb-3">
-            <div class="col-md-6">
-                <label asp-for="ProductName" class="form-label">Tên sản phẩm</label>
-                <input asp-for="ProductName" class="form-control" placeholder="Nhập tên sản phẩm" required />
-            </div>
-            <div class="col-md-3">
-                <label asp-for="Price" class="form-label">Giá gốc</label>
-                <input asp-for="Price" type="number" class="form-control" placeholder="Giá gốc" required />
-            </div>
-            <div class="col-md-3">
-                <label asp-for="PromotionPrice" class="form-label">Giá khuyến mãi</label>
-                <input asp-for="PromotionPrice" type="number" class="form-control" placeholder="Giá khuyến mãi (nếu có)" />
-            </div>
-        </div>
+<form asp-action="CreateProduct" asp-controller="Product" method="post" enctype="multipart/form-data" class="container border p-4 rounded bg-light">
 
-        <div class="mb-3">
-            <label asp-for="ProductDescription" class="form-label">Mô tả sản phẩm</label>
-            <textarea asp-for="ProductDescription" class="form-control" rows="4" placeholder="Nhập mô tả chi tiết sản phẩm"></textarea>
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Product Type</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" asp-for="ProductType" value="Bike" id="bike" />
-                <label class="form-check-label" for="bike">Bike</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" asp-for="ProductType" value="Part" id="part" />
-                <label class="form-check-label" for="part">Part</label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" asp-for="ProductType" value="Accessories" id="accessories" />
-                <label class="form-check-label" for="accessories">Accessories</label>
-            </div>
-            <span asp-validation-for="ProductType" class="text-danger"></span>
-        </div>
-        <div class="row mb-3">
-            <div class="col-md-6">
-                <label asp-for="TagName" class="form-label">Tag</label>
-                <input asp-for="TagName" class="form-control" placeholder="Nhập tag (nếu có)" />
-            </div>
-            <div class="col-md-3">
-                <label asp-for="CategoryId" class="form-label">Danh mục</label>
-                <input asp-for="CategoryId" type="number" class="form-control" placeholder="Nhập mã danh mục" required />
-            </div>
-            <div class="col-md-3">
-                <label asp-for="States" class="form-label">Trạng thái</label>
-                <select asp-for="States" class="form-select">
-                    <option value="1">Đang bán</option>
-                    <option value="0">Ngừng bán</option>
-                </select>
-            </div>
-        </div>
+    <div class="mb-3">
+        <label asp-for="ProductName" class="form-label">Tên sản phẩm</label>
+        <input asp-for="ProductName" class="form-control" placeholder="Nhập tên sản phẩm" />
+    </div>
 
-        <div class="mb-3">
-            <label asp-for="ImageUrl" class="form-label">Hình ảnh sản phẩm</label>
-            <input asp-for="ImageUrl" type="text" class="form-control" placeholder="Nhập tên file ảnh (vd: bik1.jpg)" />
-            <small class="text-muted">Nếu ảnh đã có trong thư mục <code>wwwroot/images/products/</code>, chỉ cần nhập tên file.</small>
-        </div>
+    <div class="mb-3">
+        <label asp-for="ImageUrl" class="form-label">Đường dẫn ảnh (ImageUrl)</label>
+        <input asp-for="ImageUrl" class="form-control" placeholder="vd: bike1.jpg" />
+    </div>
 
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary px-5">Lưu sản phẩm</button>
-            <a asp-action="ProductList" asp-controller="Product" class="btn btn-secondary ms-2">Quay lại</a>
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">Giá gốc</label>
+        <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="Nhập giá gốc" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PromotionPrice" class="form-label">Giá khuyến mãi</label>
+        <input asp-for="PromotionPrice" type="number" step="0.01" class="form-control" placeholder="Nhập giá khuyến mãi (nếu có)" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ProductDescription" class="form-label">Mô tả sản phẩm</label>
+        <textarea asp-for="ProductDescription" class="form-control" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TagName" class="form-label">TagName</label>
+        <input asp-for="TagName" class="form-control" placeholder="Nhập Tag (nếu có)" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CategoryId" class="form-label">Mã danh mục (CategoryId)</label>
+        <input asp-for="CategoryId" type="number" class="form-control" placeholder="Nhập mã danh mục" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label d-block">Loại sản phẩm</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" asp-for="ProductType" value="Bike" id="bike" />
+            <label class="form-check-label" for="bike">Bike</label>
         </div>
-    </form>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" asp-for="ProductType" value="Part" id="part" />
+            <label class="form-check-label" for="part">Part</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" asp-for="ProductType" value="Accessories" id="accessories" />
+            <label class="form-check-label" for="accessories">Accessories</label>
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="States" class="form-label">Trạng thái (States)</label>
+        <select asp-for="States" class="form-select">
+            <option value="1">Đang bán</option>
+            <option value="0">Ngừng bán</option>
+            <option value="2">Hết hàng</option>
+            <option value="3">Ẩn</option>
+        </select>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-success px-4">Lưu sản phẩm</button>
+        <a asp-action="ProductList" asp-controller="Product" class="btn btn-secondary ms-2">Quay lại</a>
+    </div>
 
     @if (ViewBag.Message != null)
     {
@@ -79,4 +81,4 @@
             @ViewBag.Message
         </div>
     }
-</div>
+</form>

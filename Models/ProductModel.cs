@@ -8,9 +8,9 @@
         public decimal PromotionPrice { get; set; }
         public string? ProductDescription { get; set; }
         public string? TagName { get; set; }
-        public int CategoryId { get; set; }
-        public string? ProductType {  get; set; }
+        public int CategoryId { get; set; }          // FK to Categories
+        public string? ProductType { get; set; }     // Kiểu NVARCHAR(255)
         public int States { get; set; }
-        public string? ImageUrl { get; set; } // từ bảng ProductImages
+        public string? ImageUrl { get; set; }        // từ bảng ProductImages
     }
 }

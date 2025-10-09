@@ -949,6 +949,10 @@
       "PackagePath": "staticwebassets\\css\\sign_in_page.css"
     },
     {
+      "Id": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_up_page.css",
+      "PackagePath": "staticwebassets\\css\\sign_up_page.css"
+    },
+    {
       "Id": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

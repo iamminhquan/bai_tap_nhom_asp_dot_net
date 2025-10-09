@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cNyCxQfvu9OeKy8YNZSR6sxSpeFVXZg4P7ID0Q8bp3o=",
+  "Hash": "aTuSAM8FoqasTWNQ8I3eRGWjYyW+rnPS2jnCC4lTjCg=",
   "Source": "BaiTapNhom02_Lan_02",
   "BasePath": "_content/BaiTapNhom02_Lan_02",
   "Mode": "Default",
@@ -5008,11 +5008,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6es4nwctwo",
-      "Integrity": "vl8H5TW3S4ZpXre9rghO6O5Vtoy9KSkU0cIA/CzgujE=",
+      "Fingerprint": "51h03v4tln",
+      "Integrity": "x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\sign_in_page.css"
+    },
+    {
+      "Identity": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_up_page.css",
+      "SourceId": "BaiTapNhom02_Lan_02",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\",
+      "BasePath": "_content/BaiTapNhom02_Lan_02",
+      "RelativePath": "css/sign_up_page#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "51h03v4tln",
+      "Integrity": "x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sign_up_page.css"
     },
     {
       "Identity": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\site.css",
@@ -26879,7 +26900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 15:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26916,7 +26937,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 15:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26961,7 +26982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 15:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27006,7 +27027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 15:49:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27349,7 +27370,7 @@
       ]
     },
     {
-      "Route": "css/sign_in_page.6es4nwctwo.css",
+      "Route": "css/sign_in_page.51h03v4tln.css",
       "AssetFile": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_in_page.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27359,7 +27380,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4906"
+          "Value": "9599"
         },
         {
           "Name": "Content-Type",
@@ -27367,11 +27388,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vl8H5TW3S4ZpXre9rghO6O5Vtoy9KSkU0cIA/CzgujE=\""
+          "Value": "\"x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 14:18:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27381,7 +27402,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6es4nwctwo"
+          "Value": "51h03v4tln"
         },
         {
           "Name": "label",
@@ -27389,7 +27410,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vl8H5TW3S4ZpXre9rghO6O5Vtoy9KSkU0cIA/CzgujE="
+          "Value": "sha256-x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0="
         }
       ]
     },
@@ -27404,7 +27425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4906"
+          "Value": "9599"
         },
         {
           "Name": "Content-Type",
@@ -27412,11 +27433,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vl8H5TW3S4ZpXre9rghO6O5Vtoy9KSkU0cIA/CzgujE=\""
+          "Value": "\"x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Oct 2025 08:10:13 GMT"
+          "Value": "Thu, 09 Oct 2025 14:18:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27426,7 +27447,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vl8H5TW3S4ZpXre9rghO6O5Vtoy9KSkU0cIA/CzgujE="
+          "Value": "sha256-x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0="
+        }
+      ]
+    },
+    {
+      "Route": "css/sign_up_page.51h03v4tln.css",
+      "AssetFile": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_up_page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 14:18:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "51h03v4tln"
+        },
+        {
+          "Name": "label",
+          "Value": "css/sign_up_page.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0="
+        }
+      ]
+    },
+    {
+      "Route": "css/sign_up_page.css",
+      "AssetFile": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\sign_up_page.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Oct 2025 14:18:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2oORVjidprSlyF8aVvaifRbdbxaWDrBX2BbMYsPLd0="
         }
       ]
     },
