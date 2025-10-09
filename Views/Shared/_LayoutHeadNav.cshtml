@@ -38,5 +38,13 @@
 			<li><a asp-controller="Home" asp-action="Error">TRUCK GRIP</a></li>
 		</ul>
 	</li>
+	<li class="@(ViewBag.pageName == "Registration" ? "active" : "dropdown1")">
+		<a asp-controller="Home" asp-action="Error">REGISTRATION</a>
+		<ul class="dropdown2">
+			<li><a asp-controller="Login" asp-action="SignUp">Sign Up</a></li>
+			<li><a asp-controller="Login" asp-action="SignIn">Sign In</a></li>
+			<li><a asp-controller="Login" asp-action="Error">Sign Out</a></li>
+		</ul>
+	</li>
 	<a class="shop" asp-controller="Home" asp-action="Cart"><img src="~/images/cart.png" alt="" /></a>
 </ul>
