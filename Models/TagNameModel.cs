@@ -1,8 +1,8 @@
 ﻿namespace BaiTapNhom02_Lan_02.Models
 {
-    public class TagName
+    public class Tags
     {
         public int TagId { get; set; }
-        public string? NameTag {  get; set; }
+        public string? TagName {  get; set; }
     }
 }

@@ -24,18 +24,18 @@ GO
 INSERT INTO Products (ProductName, Price, PromotionPrice, ProductDescription, TagName, CategoryId, States, ProductType, ImageUrl)
 VALUES
 -- BIKES
-(N'Mountain Bike Alpha', 750.00, 699.00, N'Strong alloy frame, 27 gears, durable tires.', N'Mountain', 1, 1, N'Bike', N'bike1.jpg'),
-(N'Mountain Bike GreenX', 780.00, 720.00, N'Lightweight frame, Shimano gears, disc brakes.', N'Mountain', 1, 1, N'Bike', N'bike1.jpg'),
-(N'Mountain Bike SkyBlue', 820.00, 770.00, N'Perfect for off-road rides, hydraulic brakes.', N'Mountain', 1, 1, N'Bike', N'bike1.jpg'),
-(N'Mountain Bike Shadow', 890.00, 850.00, N'Carbon fork, strong grip tires.', N'Mountain', 2, 1, N'Bike', N'bike1.jpg'),
-(N'Single Speed Aero', 400.00, 350.00, N'Simple and sleek design for city use.', N'SingleSpeed', 2, 1, N'Bike', N'bike2.jpg'),
-(N'Single Speed Racer', 420.00, 370.00, N'Classic single speed with lightweight frame.', N'SingleSpeed', 2, 1, N'Bike', N'bike2.jpg'),
-(N'Single Speed Metro', 450.00, 390.00, N'Urban style, minimal maintenance.', N'SingleSpeed', 3, 1, N'Bike', N'bike2.jpg'),
-(N'Single Speed WhiteLine', 480.00, 420.00, N'Elegant white design for smooth riding.', N'SingleSpeed', 3, 1, N'Bike', N'bike2.jpg'),
-(N'Road Bike Flash', 950.00, 899.00, N'Light carbon frame, 18 gears, fast performance.', N'Road', 2, 1, N'Bike', N'bike3.jpg'),
-(N'Road Bike Sprint', 980.00, 930.00, N'Perfect for long distance rides and speed.', N'Road', 3, 1, N'Bike', N'bike3.jpg'),
-(N'Road Bike OrangeX', 1020.00, 950.00, N'High traction tires, aerodynamic design.', N'Road', 3, 1, N'Bike', N'bike3.jpg'),
-(N'Road Bike SilverWing', 1100.00, 1049.00, N'Premium road bike with race-level parts.', N'Road', 2, 1, N'Bike', N'bike3.jpg'),
+(N'Mountain Bike Alpha', 750.00, 699.00, N'Strong alloy frame, 27 gears, durable tires.', N'Mountain', 1, 1, N'Bike', N'bik1.jpg'),
+(N'Mountain Bike GreenX', 780.00, 720.00, N'Lightweight frame, Shimano gears, disc brakes.', N'Mountain', 1, 1, N'Bike', N'bik1.jpg'),
+(N'Mountain Bike SkyBlue', 820.00, 770.00, N'Perfect for off-road rides, hydraulic brakes.', N'Mountain', 1, 1, N'Bike', N'bik1.jpg'),
+(N'Mountain Bike Shadow', 890.00, 850.00, N'Carbon fork, strong grip tires.', N'Mountain', 2, 1, N'Bike', N'bik1.jpg'),
+(N'Single Speed Aero', 400.00, 350.00, N'Simple and sleek design for city use.', N'SingleSpeed', 2, 1, N'Bike', N'bik2.jpg'),
+(N'Single Speed Racer', 420.00, 370.00, N'Classic single speed with lightweight frame.', N'SingleSpeed', 2, 1, N'Bike', N'bik2.jpg'),
+(N'Single Speed Metro', 450.00, 390.00, N'Urban style, minimal maintenance.', N'SingleSpeed', 3, 1, N'Bike', N'bik2.jpg'),
+(N'Single Speed WhiteLine', 480.00, 420.00, N'Elegant white design for smooth riding.', N'SingleSpeed', 3, 1, N'Bike', N'bik2.jpg'),
+(N'Road Bike Flash', 950.00, 899.00, N'Light carbon frame, 18 gears, fast performance.', N'Road', 2, 1, N'Bike', N'bik3.jpg'),
+(N'Road Bike Sprint', 980.00, 930.00, N'Perfect for long distance rides and speed.', N'Road', 3, 1, N'Bike', N'bik3.jpg'),
+(N'Road Bike OrangeX', 1020.00, 950.00, N'High traction tires, aerodynamic design.', N'Road', 3, 1, N'Bike', N'bik3.jpg'),
+(N'Road Bike SilverWing', 1100.00, 1049.00, N'Premium road bike with race-level parts.', N'Road', 2, 1, N'Bike', N'bik3.jpg'),
 
 -- PARTS
 (N'KMC Z8.3 Bike Chain', 12.99, 10.99, N'Durable 8-speed chain for city and mountain bikes.', N'chain', 4, 1, N'Part', N'p1.jpg'),

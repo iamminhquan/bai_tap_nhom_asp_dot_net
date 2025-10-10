@@ -92,7 +92,7 @@ namespace BaiTapNhom02_Lan_02.Services
             }
             catch (Exception ex)
             {
-                throw new Exception("Lỗi kết nối CSDL khi thêm sản phẩm", ex);
+                throw new Exception(ex.Message);
             }
         }
 
@@ -135,12 +135,12 @@ namespace BaiTapNhom02_Lan_02.Services
 
         public Product? GetById(int id)
         {
-            return null;
+            return new Product();
         }
 
         public List<Product> Search(string keyword)
         {
-            return null;
+            return new List<Product>();
         }
 
         public void Update(Product sp) { }
@@ -149,7 +149,7 @@ namespace BaiTapNhom02_Lan_02.Services
 
         public List<Product> GetKhuyenMai()
         {
-            return null;
+            return new List<Product>();
         }
     }
 }

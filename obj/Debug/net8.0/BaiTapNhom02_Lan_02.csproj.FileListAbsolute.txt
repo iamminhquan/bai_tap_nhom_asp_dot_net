@@ -528,3 +528,4 @@ D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\ref
 D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\BaiTapNhom02_Lan_02.pdb
 D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\BaiTapNhom02_Lan_02.genruntimeconfig.cache
 D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\ref\BaiTapNhom02_Lan_02.dll
+D:\workspace\coding\c_sharp\dotnet\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

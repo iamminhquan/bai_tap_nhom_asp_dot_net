@@ -8,6 +8,7 @@ builder.Services.AddControllersWithViews();
 // DI Register.
 builder.Services.AddScoped<ConnectDatabase>();
 builder.Services.AddScoped<ProductServices>();
+builder.Services.AddScoped<TagNameServices>();
 
 var app = builder.Build();
 

@@ -6,14 +6,16 @@ using BaiTapNhom02_Lan_02.Services;
 // Minh Quân.
 // Thay default contructor bằng primary contructor.
 // Ngày chỉnh sửa: 08/10/2025 - 11:27 PM.
-public class HomeController(ILogger<HomeController> logger) : Controller
+public class HomeController(ILogger<HomeController> logger, ProductServices productServices) : Controller
 {
     private readonly ILogger<HomeController> _logger = logger;
+    private readonly ProductServices _productServices = productServices;
 
     public IActionResult Index()
     {
         ViewBag.isIndex = true;
-        return View();
+        var products = _productServices.GetAllProducts().Take(4);
+        return View(products);
     }
 
     public IActionResult Single()
