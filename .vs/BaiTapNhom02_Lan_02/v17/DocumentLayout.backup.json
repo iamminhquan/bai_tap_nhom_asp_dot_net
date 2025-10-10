@@ -1,23 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\ntnguyen\\hoctap\\baitap\\baitap_aspnetcore\\bai_tap_nhom_asp_dot_net\\database\\connectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:database\\connectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\ntnguyen\\hoctap\\baitap\\baitap_aspnetcore\\bai_tap_nhom_asp_dot_net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\ntnguyen\\hoctap\\baitap\\baitap_aspnetcore\\bai_tap_nhom_asp_dot_net\\areas\\admin\\views\\home\\productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:areas\\admin\\views\\home\\productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -25,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,56 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAFsCAAAAAAAAAAD4v2UCAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-10-09T15:45:09.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectDatabase.cs",
-              "DocumentMoniker": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Database\\ConnectDatabase.cs",
-              "RelativeDocumentMoniker": "Database\\ConnectDatabase.cs",
-              "ToolTip": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Database\\ConnectDatabase.cs",
-              "RelativeToolTip": "Database\\ConnectDatabase.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T15:43:27.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T15:42:47.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductManagement.cshtml",
-              "DocumentMoniker": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Home\\ProductManagement.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\ProductManagement.cshtml",
-              "ToolTip": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Home\\ProductManagement.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\ProductManagement.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T15:42:38.647Z",
-              "EditorCaption": ""
             }
           ]
         }
