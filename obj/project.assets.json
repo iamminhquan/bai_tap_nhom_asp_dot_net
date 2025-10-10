@@ -6451,23 +6451,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Quan\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
+      "projectUniqueName": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
       "projectName": "BaiTapNhom02_Lan_02",
-      "projectPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
-      "packagesPath": "C:\\Users\\Quan\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\obj\\",
+      "projectPath": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\BaiTapNhom02_Lan_02.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6494,7 +6494,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -6520,24 +6520,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6546,7 +6528,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
