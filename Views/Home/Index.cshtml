@@ -46,8 +46,52 @@
 		</div>
 	</div>
 </div>
+
 <!--bikes-->
-<div class="bikes">
+@* ThaiNguyen
+them hien thi san pham noi bac o index.cshtml bang csdl
+10/10/2025 11h10p *@
+@model IEnumerable<BaiTapNhom02_Lan_02.Models.Product>
+
+<div class="container my-5">
+	<h3 class="text-center mb-4 fw-bold text-uppercase">Popular Bikes</h3>
+
+	<div class="row">
+		@foreach (var item in Model)
+		{
+			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+				<div class="card h-100 text-center">
+					<!-- Ảnh sản phẩm -->
+					<img src="~/images/@item.ImageUrl" class="card-img-top" alt="@item.ProductName"
+						 style="height:220px; object-fit:cover;" />
+
+					<!-- Nội dung sản phẩm -->
+					<div class="card-body">
+						<h5 class="card-title">@item.ProductName</h5>
+						<p class="card-text mb-3">
+							<span class="text-muted" style="text-decoration: line-through;">
+								@item.Price.ToString("N0") VND
+							</span><br />
+							<span class="fw-bold text-danger">
+								@item.PromotionPrice.ToString("N0") VND
+							</span>
+						</p>
+						<a asp-controller="Home" asp-action="Single" asp-route-id="@item.ProductId"
+						   class="btn btn-primary btn-sm">
+							Xem chi tiết
+						</a>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+</div>
+
+
+
+
+
+@* <div class="bikes">
 	<h3>POPULAR BIKES</h3>
 	<div class="bikes-grids">
 		<ul id="flexiselDemo1">
@@ -205,7 +249,7 @@
 			});
 		</script>
 	</div>
-</div>
+</div> *@
 <!---->
 <div class="contact">
 	<div class="container">

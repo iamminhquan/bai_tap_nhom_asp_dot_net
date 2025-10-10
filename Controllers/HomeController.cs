@@ -14,7 +14,7 @@ public class HomeController(ILogger<HomeController> logger, ProductServices prod
     public IActionResult Index()
     {
         ViewBag.isIndex = true;
-        var products = _productServices.GetAllProducts().Take(4);
+        var products = _productServices.GetAllProducts().Take(3);
         return View(products);
     }
 
