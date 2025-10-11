@@ -1,8 +1,7 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-
-@section Scripts{
+@section Scripts {
 	<script src="~/js/responsiveslides.min.js"></script>
 	<script type="text/javascript" src="~/js/jquery.flexisel.js"></script>
 	<script type="text/javascript" src="~/js/move-top.js"></script>
@@ -46,181 +45,12 @@
 		</div>
 	</div>
 </div>
-
 <!--bikes-->
-@* ThaiNguyen
-them hien thi san pham noi bac o index.cshtml bang csdl
-10/10/2025 11h10p *@
-@model IEnumerable<BaiTapNhom02_Lan_02.Models.Product>
-
-<div class="container my-5">
-	<h3 class="text-center mb-4 fw-bold text-uppercase">Popular Bikes</h3>
-
-	<div class="row">
-		@foreach (var item in Model)
-		{
-			<div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-				<div class="card h-100 text-center">
-					<!-- Ảnh sản phẩm -->
-					<img src="~/images/@item.ImageUrl" class="card-img-top" alt="@item.ProductName"
-						 style="height:220px; object-fit:cover;" />
-
-					<!-- Nội dung sản phẩm -->
-					<div class="card-body">
-						<h5 class="card-title">@item.ProductName</h5>
-						<p class="card-text mb-3">
-							<span class="text-muted" style="text-decoration: line-through;">
-								@item.Price.ToString("N0") VND
-							</span><br />
-							<span class="fw-bold text-danger">
-								@item.PromotionPrice.ToString("N0") VND
-							</span>
-						</p>
-						<a asp-controller="Home" asp-action="Single" asp-route-id="@item.ProductId"
-						   class="btn btn-primary btn-sm">
-							Xem chi tiết
-						</a>
-					</div>
-				</div>
-			</div>
-		}
-	</div>
-</div>
-
-
-
-
-
-@* <div class="bikes">
-	<h3>POPULAR BIKES</h3>
+<div class="bikes">
+	<h3>BIKES</h3>
 	<div class="bikes-grids">
 		<ul id="flexiselDemo1">
-			<li>
-				<img src="~/images/bik1.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>FIXED GEAR<span>$249.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
-			<li>
-				<img src="~/images/bik2.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>BIG BOY ULTRA<span>$249.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
-			<li>
-				<img src="~/images/bik3.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>ROCK HOVER<span>$300.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
-			<li>
-				<img src="~/images/bik4.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>SANSACHG<span>$249.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
-			<li>
-				<img src="~/images/bik5.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>JETT MAC<span>$340.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
-			<li>
-				<img src="~/images/bik6.jpg" alt="" />
-				<div class="bike-info">
-					<div class="model">
-						<h4>SANSACHG<span>$249.00</span></h4>
-					</div>
-					<div class="model-info">
-						<select>
-							<option value="volvo">OPTION</option>
-							<option value="saab">Option</option>
-							<option value="opel">Option</option>
-							<option value="audi">Option</option>
-						</select>
-						<a asp-controller="Home" asp-action="Bicycles">BUY</a>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="viw">
-					<a asp-controller="Home" asp-action="Bicycles">Quick View</a>
-				</div>
-			</li>
+			@await Component.InvokeAsync("Bikes")
 		</ul>
 		<script type="text/javascript">
 			 $(window).load(function() {
@@ -249,7 +79,7 @@ them hien thi san pham noi bac o index.cshtml bang csdl
 			});
 		</script>
 	</div>
-</div> *@
+</div>
 <!---->
 <div class="contact">
 	<div class="container">

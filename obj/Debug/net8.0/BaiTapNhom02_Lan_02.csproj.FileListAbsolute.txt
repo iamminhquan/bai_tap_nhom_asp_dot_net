@@ -263,3 +263,4 @@ D:\2025\ASPNet_Core\baitap\BaiTapNhom\DoAnNhom\bai_tap_nhom_moi_10_10\bai_tap_nh
 D:\2025\ASPNet_Core\baitap\BaiTapNhom\DoAnNhom\bai_tap_nhom_moi_10_10\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\BaiTapNhom02_Lan_02.pdb
 D:\2025\ASPNet_Core\baitap\BaiTapNhom\DoAnNhom\bai_tap_nhom_moi_10_10\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\BaiTapNhom02_Lan_02.genruntimeconfig.cache
 D:\2025\ASPNet_Core\baitap\BaiTapNhom\DoAnNhom\bai_tap_nhom_moi_10_10\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\ref\BaiTapNhom02_Lan_02.dll
+D:\2025\ASPNet_Core\baitap\BaiTapNhom\DoAnNhom\bai_tap_nhom_moi_10_10\bai_tap_nhom_asp_dot_net\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
