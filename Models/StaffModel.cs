@@ -1,19 +1,15 @@
 ﻿namespace BaiTapNhom02_Lan_02.Models
 {
-    public class Staffs
+    public class Staff
     {
-        public int StaffId { get; set; }
-        public string? StaffName { get; set; }
-        public string? AccountName { get; set; }
-        public string? AccountPassword { get; set; }
-        public string? StaffAddress { get; set; }
-        public string? PhoneNumber { get; set; }
-        public string? Email { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public string? Gender { get; set; }
-        public DateTime StartDate { get; set; }
-        public decimal Salary { get; set; }
-        public byte States { get; set; }   // 0 = Inactive, 1 = Active
-        public byte Roles { get; set; }    // 0 = Staff, 1 = Admin
+        public int StaffId;
+        public string? FullName;
+        public string? Username;
+        public string? HashedPassword;
+        public string? Email;
+        public string? PhoneNumber;
+        public string? Address;
+        public int Roles;
+        public int States;
     }
 }
