@@ -1,13 +1,36 @@
-﻿namespace BaiTapNhom02_Lan_02.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BaiTapNhom02_Lan_02.Models
 {
+    [Table("Bills")]
     public class Bills
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderId { get; set; }
-        public int ProductId { get; set; }     // FK to Products
-        public int CustomerId { get; set; }    // FK to Customers
-        public int StaffId { get; set; }       // FK to Staffs
+
+        [Required]                                 //  [Required]: bắt buộc giá trị đó không được null
+        [ForeignKey("Products")]                   // FK to Products
+        public int ProductId { get; set; }
+
+        [Required]
+        [ForeignKey("Customers")]                  // FK to Customers
+        public int CustomerId { get; set; }
+
+        [Required]
+        [ForeignKey("Staffs")]                     // FK to Staffs
+        public int StaffId { get; set; }
+
+        [Required]
+        [Column(TypeName = "datetime")]
         public DateTime OrderDate { get; set; }
+
+        [Required]
         public int TotalItems { get; set; }    // Total quantity
+
+        [Required]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal TotalAmount { get; set; } // Total payment
     }
 }
