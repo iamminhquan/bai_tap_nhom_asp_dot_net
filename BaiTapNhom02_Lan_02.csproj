@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Admin\Data\**" />
+    <Compile Remove="Areas\Admin\Models\**" />
+    <Content Remove="Areas\Admin\Data\**" />
+    <Content Remove="Areas\Admin\Models\**" />
+    <EmbeddedResource Remove="Areas\Admin\Data\**" />
+    <EmbeddedResource Remove="Areas\Admin\Models\**" />
+    <None Remove="Areas\Admin\Data\**" />
+    <None Remove="Areas\Admin\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="wwwroot\Admin\bower_components\bootstrap-social\.bower.json" />
     <Content Include="wwwroot\Admin\bower_components\bootstrap-social\bootstrap-social.css" />
     <Content Include="wwwroot\Admin\bower_components\bootstrap-social\bower.json" />
@@ -233,11 +244,6 @@
     <Content Include="wwwroot\Admin\bower_components\raphael\.bower.json" />
     <Content Include="wwwroot\Admin\bower_components\raphael\bower.json" />
     <Content Include="wwwroot\Admin\bower_components\raphael\license.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
   <ItemGroup>

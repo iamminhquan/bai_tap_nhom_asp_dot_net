@@ -1,9 +1,20 @@
-using BaiTapNhom02_Lan_02.Database;
+﻿using BaiTapNhom02_Lan_02.Database;
 using BaiTapNhom02_Lan_02.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+// Minh Quân.
+// Trigger session.
+// Ngày chỉnh sửa: 11/10/2025 - 4:38 PM.
+
+// Trigger session.
+builder.Services.AddSession(options =>
+{
+    // Expire in 15 minutes.
+    options.IdleTimeout = TimeSpan.FromMinutes(15);
+});
 
 // DI Register.
 builder.Services.AddScoped<ConnectDatabase>();
@@ -19,8 +30,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
+
 app.UseRouting();
+
+// Minh Quân.
+// Thêm app.UseSession();.
+// Ngày chỉnh sửa: 11/10/2025 - 4:39 PM.
+app.UseSession();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(

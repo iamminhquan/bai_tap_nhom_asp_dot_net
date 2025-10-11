@@ -57,11 +57,11 @@ public class HomeController(ILogger<HomeController> logger, ProductServices prod
     }
 
     // Minh Quân
-    // Thêm chức năng đăng nhập.
-    // Ngày chỉnh sửa: 08/10/2025 - 11:22 PM.
-    public IActionResult SignIn()
+    // Chỉnh sửa chức năng đăng nhập.
+    // Ngày chỉnh sửa: 11/10/2025 - 5:08 PM.
+    public IActionResult Login()
     {
-        ViewBag.pageName = "SignIn";
+        ViewBag.pageName = "Login";
         return View();
     }
 

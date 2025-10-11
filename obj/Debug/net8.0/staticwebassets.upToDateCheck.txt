@@ -6,6 +6,7 @@ wwwroot\Admin\js\morris-data.js
 wwwroot\css\bootstrap.css
 wwwroot\css\etalage.css
 wwwroot\css\form.css
+wwwroot\css\login.css
 wwwroot\css\nav.css
 wwwroot\css\sign_in_page.css
 wwwroot\css\sign_up_page.css
