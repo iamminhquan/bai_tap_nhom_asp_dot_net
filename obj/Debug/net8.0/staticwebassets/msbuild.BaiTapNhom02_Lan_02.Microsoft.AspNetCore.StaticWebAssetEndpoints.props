@@ -2820,6 +2820,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bBKdY5wjPL658YlGM\u002Baggpz68VLXG377SiZYS2MljJ0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3598"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bBKdY5wjPL658YlGM\u002Baggpz68VLXG377SiZYS2MljJ0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Oct 2025 14:12:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaiTapNhom02_Lan_02/css/login.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-loSzGH85JlHBeM\u002BylfHXyp3QyF2Zap7ywOzAnGIbG9Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2901"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022loSzGH85JlHBeM\u002BylfHXyp3QyF2Zap7ywOzAnGIbG9Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Oct 2025 14:20:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BaiTapNhom02_Lan_02/css/login.yq6pxzmwp7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yq6pxzmwp7"},{"Name":"integrity","Value":"sha256-loSzGH85JlHBeM\u002BylfHXyp3QyF2Zap7ywOzAnGIbG9Q="},{"Name":"label","Value":"_content/BaiTapNhom02_Lan_02/css/login.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2901"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022loSzGH85JlHBeM\u002BylfHXyp3QyF2Zap7ywOzAnGIbG9Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Oct 2025 14:20:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BaiTapNhom02_Lan_02/css/nav.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\nav.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

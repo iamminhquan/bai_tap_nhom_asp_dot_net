@@ -941,6 +941,10 @@
       "PackagePath": "staticwebassets\\css\\form.css"
     },
     {
+      "Id": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\NTNguyen\\HocTap\\BAITAP\\BaiTap_ASPNETCORE\\bai_tap_nhom_asp_dot_net\\wwwroot\\css\\nav.css",
       "PackagePath": "staticwebassets\\css\\nav.css"
     },
