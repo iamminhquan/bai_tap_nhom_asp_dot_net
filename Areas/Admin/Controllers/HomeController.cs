@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BaiTapNhom02_Lan_02.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class HomeController : Controller
+    public class HomeController(ProductServices productServices) : Controller
     {
+        private readonly ProductServices _productServices = productServices;
+
         public IActionResult Management()
         {
             ViewData["Title"] = "Management";
@@ -16,7 +19,8 @@ namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
         {
             ViewData["Title"] = "ProductManagement";
             ViewBag.Message = "Page ProductManagement";
-            return View();
+            var products = _productServices.GetAllProducts();
+            return View(products);
         }
     }
 }

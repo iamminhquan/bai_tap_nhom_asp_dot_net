@@ -4,33 +4,28 @@ using Microsoft.Data.SqlClient;
 
 namespace BaiTapNhom02_Lan_02.Services
 {
-
     //ThaiNguyen
     //Lay ra danh sach ten TagName 
     //22h10p
-    public class TagNameServices
+    public class TagNameServices(ConnectDatabase connecDatabase)
     {
-        private readonly ConnectDatabase _connecDatabase;
+        // Minh Quân
+        // Thay default contructor bằng primary constructor.
+        // Ngày thay đồi: 10/10/2025 - 2:09 AM.
+        private readonly ConnectDatabase _connecDatabase = connecDatabase;
 
-        public TagNameServices(ConnectDatabase connecDatabase)
-        {
-            _connecDatabase = connecDatabase;
-        }
         // Lấy tất cả sản phẩm
-        public List<TagName> GetAllTagName()
+        public List<Tags> GetAllTagName()
         {
-            var result = new List<TagName>();
+            var result = new List<Tags>();
             try
             {
                 using (var connection = _connecDatabase.GetConnection())
                 {
-                  
-
-                    string query = "SELECT * FROM TagName";
-
+                    connection.Open();
+                    string query = "SELECT * FROM Tags";
                     using (var cmd = new SqlCommand(query, connection))
                     {
-                        connection.Open();
                         using (var reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
@@ -40,21 +35,21 @@ namespace BaiTapNhom02_Lan_02.Services
                         }
                     }
                 }
-            }
-            catch (Exception ex)
+            } catch (Exception ex)
             {
                 throw new Exception("Lỗi khi lấy danh sách sản phẩm", ex);
             }
 
             return result;
         }
-        private TagName MapToTagName(SqlDataReader reader)
+
+        private Tags MapToTagName(SqlDataReader reader)
         {
-            return new TagName
+            return new Tags
             {
                 TagId = Convert.ToInt32(reader["TagId"]),
-                NameTag = reader["NameTag"]?.ToString()
+                TagName = reader["TagName"]?.ToString()
             };
-        }  
+        }
     }
 }
