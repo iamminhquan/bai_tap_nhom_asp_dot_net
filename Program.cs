@@ -19,7 +19,13 @@ builder.Services.AddSession(options =>
 // DI Register.
 builder.Services.AddScoped<ConnectDatabase>();
 builder.Services.AddScoped<ProductServices>();
+
+// thainguyen
+// add CategoryServices 
+// 13/10/25 21h30
+builder.Services.AddScoped<CategoryServices>();
 builder.Services.AddScoped<TagNameServices>();
+
 
 var app = builder.Build();
 
