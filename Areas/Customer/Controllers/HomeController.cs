@@ -1,4 +1,5 @@
-﻿using BaiTapNhom02_Lan_02.Services;
+﻿using BaiTapNhom02_Lan_02.Models;
+using BaiTapNhom02_Lan_02.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaiTapNhom02_Lan_02.Areas.Customer.Controllers
@@ -19,7 +20,29 @@ namespace BaiTapNhom02_Lan_02.Areas.Customer.Controllers
             return View(products);
         }
 
+        public IActionResult Accessories()
+        {
+            return View();
+        }
+
         public IActionResult Parts()
+        {
+            return View();
+        }
+
+        public IActionResult Bicycles()
+        {
+            var products = _productServices.GetAllProducts();
+            //ViewBag.Username = HttpContext.Session.GetString("Username");
+            return View(products);
+        }
+
+        public IActionResult Carts()
+        {
+            return View();
+        }
+
+        public IActionResult Single()
         {
             return View();
         }

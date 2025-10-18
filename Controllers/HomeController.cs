@@ -27,7 +27,8 @@ public class HomeController(ILogger<HomeController> logger, ProductServices prod
     public IActionResult Bicycles()
     {
         ViewBag.pageName = "Bicycles";
-        return View();
+        var product = _productServices.GetAllProducts();
+        return View(product);
     }
 
     public IActionResult Parts()

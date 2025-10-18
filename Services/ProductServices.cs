@@ -127,29 +127,5 @@ namespace BaiTapNhom02_Lan_02.Services
             command.Parameters.AddWithValue("@States", product.States);
             command.Parameters.AddWithValue("@ProductType", (object?)product.ProductType ?? DBNull.Value);
         }
-
-        // Các hàm chưa yeu cau
-        public void UpdateList(List<Product> list)
-        {
-        }
-
-        public Product? GetById(int id)
-        {
-            return new Product();
-        }
-
-        public List<Product> Search(string keyword)
-        {
-            return new List<Product>();
-        }
-
-        public void Update(Product sp) { }
-
-        public void Delete(int id) { }
-
-        public List<Product> GetKhuyenMai()
-        {
-            return new List<Product>();
-        }
     }
 }

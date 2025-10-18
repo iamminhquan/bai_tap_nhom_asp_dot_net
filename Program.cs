@@ -16,7 +16,7 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromMinutes(15);
 });
 
-// DI Register.
+// DI Register
 builder.Services.AddScoped<ConnectDatabase>();
 builder.Services.AddScoped<ProductServices>();
 
