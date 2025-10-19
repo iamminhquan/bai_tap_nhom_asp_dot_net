@@ -1,11 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using BaiTapNhom02_Lan_02.Database;
 
 namespace BaiTapNhom02_Lan_02.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly string _connectionectionString = "Data Source=LAPTOP-5N7OU2IQ\\SQLEXPRESS;Initial Catalog=DemoLogin;Integrated Security=True;Trust Server Certificate=True";
+        //private readonly string _connectionectionString = "Data Source=LAPTOP-5N7OU2IQ\\SQLEXPRESS;Initial Catalog=DemoLogin;Integrated Security=True;Trust Server Certificate=True";
+        private readonly ConnectDatabase _connectDatabase;
+
+        public AuthController(ConnectDatabase connectDatabase)
+        {
+            _connectDatabase = connectDatabase;
+        }
 
         [HttpGet]
         public IActionResult Login()
@@ -19,7 +26,7 @@ namespace BaiTapNhom02_Lan_02.Controllers
             // Fake hased password.
             string hashedPassword = password;
 
-            using (SqlConnection connection = new SqlConnection(_connectionectionString))
+            using (SqlConnection connection = _connectDatabase.GetConnection())
             {
                 connection.Open();
 
@@ -41,9 +48,9 @@ namespace BaiTapNhom02_Lan_02.Controllers
                     reader.Close();
 
                     if (role == 0)
-                        return RedirectToAction("CreateProduct", "Product", new { area = "Admin" });
+                        return RedirectToAction("ProductManagement", "Home", new { area = "Admin" });
                     else
-                        return RedirectToAction("CreateProduct", "Product", new { area = "Admin" });
+                        return RedirectToAction("ProductManagement", "Home", new { area = "Admin" });
                 }
                 reader.Close();
 
