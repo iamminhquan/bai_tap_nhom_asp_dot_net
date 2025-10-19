@@ -1,18 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\",
+  "WorkspaceRootPath": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\areas\\admin\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:areas\\admin\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:views\\shared\\_layoutheadnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\areas\\admin\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:areas\\admin\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\websettingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\websettingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\tagnamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\tagnamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\staffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\billdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\billdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|d:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\models\\productimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218D50C1-A3BE-4FB8-B6F5-F887EAA284C9}|BaiTapNhom02_Lan_02.csproj|solutionrelative:models\\productimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +78,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "WebSettingsModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\WebSettingsModel.cs",
+              "RelativeDocumentMoniker": "Models\\WebSettingsModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\WebSettingsModel.cs",
+              "RelativeToolTip": "Models\\WebSettingsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:33:03.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagNameModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\TagNameModel.cs",
+              "RelativeDocumentMoniker": "Models\\TagNameModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\TagNameModel.cs",
+              "RelativeToolTip": "Models\\TagNameModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:33:03.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\StaffModel.cs",
+              "RelativeDocumentMoniker": "Models\\StaffModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\StaffModel.cs",
+              "RelativeToolTip": "Models\\StaffModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:33:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReviewModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ReviewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ReviewModel.cs",
+              "RelativeToolTip": "Models\\ReviewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:33:01.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BillDetailModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\BillDetailModel.cs",
+              "RelativeDocumentMoniker": "Models\\BillDetailModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\BillDetailModel.cs",
+              "RelativeToolTip": "Models\\BillDetailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:32:59.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BillModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\BillModel.cs",
+              "RelativeDocumentMoniker": "Models\\BillModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\BillModel.cs",
+              "RelativeToolTip": "Models\\BillModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:32:57.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductImageModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ProductImageModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductImageModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ProductImageModel.cs",
+              "RelativeToolTip": "Models\\ProductImageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:32:53.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:32:49.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CreateProduct.cshtml",
-              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
-              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Product\\CreateProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-11T13:47:53.154Z",
               "EditorCaption": ""
@@ -61,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_LayoutHeadNav.cshtml",
-              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutHeadNav.cshtml",
-              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Views\\Shared\\_LayoutHeadNav.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LayoutHeadNav.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -72,13 +208,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\workspace\\coding\\c_sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\workspace\\coding\\c-sharp\\dotnet\\bai_tap_nhom_asp_dot_net\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T10:37:38.555Z",
               "EditorCaption": ""
