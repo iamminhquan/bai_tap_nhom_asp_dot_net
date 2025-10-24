@@ -88,8 +88,11 @@ namespace BaiTapNhom02_Lan_02.Controllers
 
         public IActionResult Logout()
         {
+            // Destroy session.
             HttpContext.Session.Clear();
-            return RedirectToAction("Login");
+
+            // Return user to Index page.
+            return RedirectToAction("Index", "Home");
         }
     }
 }
