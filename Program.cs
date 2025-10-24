@@ -10,8 +10,10 @@ builder.Services.AddControllersWithViews();
 // Ngày chỉnh sửa: 11/10/2025 - 4:38 PM.
 
 // Trigger session.
+// Bật session
 builder.Services.AddSession(options =>
 {
+    // Đặt session hết hạn trong 15 phút.
     // Expire in 15 minutes.
     options.IdleTimeout = TimeSpan.FromMinutes(15);
 });

@@ -17,7 +17,7 @@ namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
 
         public IActionResult ProductManagement()
         {
-            ViewData["Title"] = "ProductManagement";
+            ViewData["Title"] = "Product Management";
             ViewBag.Message = "Page ProductManagement";
             var products = _productServices.GetAllProducts();
             return View(products);

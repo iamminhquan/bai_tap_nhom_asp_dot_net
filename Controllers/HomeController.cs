@@ -1,6 +1,4 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using BaiTapNhom02_Lan_02.Models;
 using BaiTapNhom02_Lan_02.Services;
 
 // Minh Quân.
@@ -14,8 +12,13 @@ public class HomeController(ILogger<HomeController> logger, ProductServices prod
     public IActionResult Index()
     {
         ViewBag.isIndex = true;
-        var products = _productServices.GetAllProducts().Take(3);
-        return View(products);
+        // Minh Quân.
+        // Thay ViewComponent của Thái Nguyên bằng ViewComponent của Quốc Trung.
+        // Ngày chỉnh sửa: 24/10/2025 - 4:27 PM.
+
+        // Delete this command.
+        //var products = _productServices.GetAllProducts().Take(3);
+        return View();
     }
 
     public IActionResult Single()

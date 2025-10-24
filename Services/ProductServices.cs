@@ -52,6 +52,39 @@ namespace BaiTapNhom02_Lan_02.Services
             return result;
         }
 
+        // Trung.
+        // Thêm hàm GetRanDomTop6Products()
+        // Ngày chỉnh sửa: 11/10/2025 - 11:41 PM.
+        public List<Product> GetRanDomTop6Products()
+        {
+            var result = new List<Product>();
+            try
+            {
+                using (var connection = _connectDatabase.GetConnection())
+                {
+
+                    string query = "SELECT Top 6 * FROM Products Where ProductType like N'Bike' ORDER BY NEWID()";
+
+                    using (var cmd = new SqlCommand(query, connection))
+                    {
+                        connection.Open();
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                result.Add(MapToProduct(reader));
+                            }
+                        }
+                    }
+                }
+            } catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi lấy danh sách sản phẩm", ex);
+            }
+
+            return result;
+        }
+
         // Thêm sản phẩm mới
         public bool AddProduct(Product product)
         {
@@ -140,7 +173,7 @@ namespace BaiTapNhom02_Lan_02.Services
 
         public List<Product> Search(string keyword)
         {
-            return new List<Product>();
+            return [];
         }
 
         public void Update(Product sp) { }
@@ -149,7 +182,7 @@ namespace BaiTapNhom02_Lan_02.Services
 
         public List<Product> GetKhuyenMai()
         {
-            return new List<Product>();
+            return [];
         }
     }
 }

@@ -8,15 +8,8 @@ using BaiTapNhom02_Lan_02.Models;
 namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+    public class CategoryController(CategoryServices categoryServices) : Controller
     {
-        private readonly CategoryServices _categoryServices;
-
-        public CategoryController(CategoryServices categoryServices)
-        {
-            _categoryServices = categoryServices;
-        }
-
         [HttpGet]
         public IActionResult CreateCategory()
         {
@@ -26,7 +19,7 @@ namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult CreateCategory(Categories category)
         {
-            bool result = _categoryServices.AddCategory(category);
+            bool result = categoryServices.AddCategory(category);
 
             if (result)
                 ViewBag.Message = "Thêm danh mục thành công!";
