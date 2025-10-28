@@ -17,7 +17,7 @@ namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateCategory(Categories category)
+        public IActionResult CreateCategory(Category category)
         {
             bool result = categoryServices.AddCategory(category);
 

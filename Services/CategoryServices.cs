@@ -16,13 +16,13 @@ namespace BaiTapNhom02_Lan_02.Services
             _connectDatabase = connectDatabase;
         }
 
-        public List<Categories> GetAllCategories() {
-            var result = new List<Categories>();
+        public List<Category> GetAllCategory() {
+            var result = new List<Category>();
             try
             {
                 using (var connect = _connectDatabase.GetConnection())
                 {
-                    string query = "select * from Categories";
+                    string query = "select * from Category";
                     using (var commad = new SqlCommand(query, connect))
                     {
                         connect.Open();
@@ -41,7 +41,7 @@ namespace BaiTapNhom02_Lan_02.Services
             }
             return result;
         }
-        public bool AddCategory(Categories category)
+        public bool AddCategory(Category category)
         {
             try
             {
@@ -52,7 +52,7 @@ namespace BaiTapNhom02_Lan_02.Services
                     {
                         try
                         {
-                            string queryCategory = @"INSERT INTO Categories
+                            string queryCategory = @"INSERT INTO Category
                         (CategoryName, States, Slug)
                         VALUES
                         (@CategoryName, @States, @Slug)";
@@ -80,9 +80,9 @@ namespace BaiTapNhom02_Lan_02.Services
             }
         }
 
-        private Categories MapToCategory(SqlDataReader reader)
+        private Category MapToCategory(SqlDataReader reader)
         {
-            return new Categories
+            return new Category
             {
                 CategoryId = Convert.ToInt32(reader["CategoryId"]),
                 CategoryName = reader["CategoryName"]?.ToString() ?? string.Empty,
@@ -91,7 +91,7 @@ namespace BaiTapNhom02_Lan_02.Services
             };
         }
 
-        private void AddCommandCategory(SqlCommand command, Categories category)
+        private void AddCommandCategory(SqlCommand command, Category category)
         {
             command.Parameters.AddWithValue("@CategoryName", category.CategoryName);
             command.Parameters.AddWithValue("@States", category.States);

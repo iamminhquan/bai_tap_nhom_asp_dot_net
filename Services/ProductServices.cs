@@ -1,6 +1,7 @@
 ﻿using BaiTapNhom02_Lan_02.Database;
 using BaiTapNhom02_Lan_02.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 
 // Thái Nguyên
@@ -77,7 +78,8 @@ namespace BaiTapNhom02_Lan_02.Services
                         }
                     }
                 }
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception("Lỗi khi lấy danh sách sản phẩm", ex);
             }
@@ -141,7 +143,7 @@ namespace BaiTapNhom02_Lan_02.Services
                 ProductDescription = reader["ProductDescription"]?.ToString(),
                 TagName = reader["TagName"]?.ToString(),
                 CategoryId = reader["CategoryId"] != DBNull.Value ? Convert.ToInt32(reader["CategoryId"]) : 0,
-                States = reader["States"] != DBNull.Value ? Convert.ToInt32(reader["States"]) : 0,
+                States = (byte)(reader["States"] != DBNull.Value ? Convert.ToInt32(reader["States"]) : 0),
                 ImageUrl = reader["ImageUrl"]?.ToString(),
                 ProductType = reader["ProductType"]?.ToString()
             };

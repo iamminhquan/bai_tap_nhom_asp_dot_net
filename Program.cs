@@ -1,4 +1,5 @@
-﻿using BaiTapNhom02_Lan_02.Database;
+﻿using BaiTapNhom02_Lan_02.Data;
+using BaiTapNhom02_Lan_02.Database;
 using BaiTapNhom02_Lan_02.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +10,7 @@ builder.Services.AddControllersWithViews();
 // Minh Quân.
 // Thêm cấu hình AppDbContext.
 // Ngày chỉnh sửa: 28/10/2025 - 11:52 AM.
-builder.Services.AddDbContext<DbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Minh Quân.

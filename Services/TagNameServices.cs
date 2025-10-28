@@ -15,9 +15,9 @@ namespace BaiTapNhom02_Lan_02.Services
         private readonly ConnectDatabase _connecDatabase = connecDatabase;
 
         // Lấy tất cả sản phẩm
-        public List<Tags> GetAllTagName()
+        public List<Tag> GetAllTagName()
         {
-            var result = new List<Tags>();
+            var result = new List<Tag>();
             try
             {
                 using var connection = _connecDatabase.GetConnection();
@@ -38,9 +38,9 @@ namespace BaiTapNhom02_Lan_02.Services
             return result;
         }
 
-        private static Tags MapToTagName(SqlDataReader reader)
+        private static Tag MapToTagName(SqlDataReader reader)
         {
-            return new Tags
+            return new Tag
             {
                 TagId = Convert.ToInt32(reader["TagId"]),
                 TagName = reader["TagName"]?.ToString()
