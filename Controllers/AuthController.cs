@@ -4,15 +4,10 @@ using BaiTapNhom02_Lan_02.Database;
 
 namespace BaiTapNhom02_Lan_02.Controllers
 {
-    public class AuthController : Controller
+    public class AuthController(ConnectDatabase connectDatabase) : Controller
     {
         //private readonly string _connectionectionString = "Data Source=LAPTOP-5N7OU2IQ\\SQLEXPRESS;Initial Catalog=DemoLogin;Integrated Security=True;Trust Server Certificate=True";
-        private readonly ConnectDatabase _connectDatabase;
-
-        public AuthController(ConnectDatabase connectDatabase)
-        {
-            _connectDatabase = connectDatabase;
-        }
+        private readonly ConnectDatabase _connectDatabase = connectDatabase;
 
         // Nếu request == GET thì render ra trang giao diện.
         [HttpGet]

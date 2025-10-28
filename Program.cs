@@ -1,9 +1,16 @@
 ﻿using BaiTapNhom02_Lan_02.Database;
 using BaiTapNhom02_Lan_02.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+// Minh Quân.
+// Thêm cấu hình AppDbContext.
+// Ngày chỉnh sửa: 28/10/2025 - 11:52 AM.
+builder.Services.AddDbContext<DbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Minh Quân.
 // Trigger session.
