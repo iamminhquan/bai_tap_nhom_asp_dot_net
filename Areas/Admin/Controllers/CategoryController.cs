@@ -17,14 +17,13 @@ namespace BaiTapNhom02_Lan_02.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateCategory(Category category)
+        public async Task<IActionResult> CreateCategory(Category category)
         {
-            bool result = categoryServices.AddCategory(category);
+            bool result = await categoryServices.AddCategoryAsync(category);
 
-            if (result)
-                ViewBag.Message = "Thêm danh mục thành công!";
-            else
-                ViewBag.Message = "Thêm danh mục thất bại!";
+            ViewBag.Message = result
+                ? "Thêm danh mục thành công!"
+                : "Thêm danh mục thất bại!";
 
             return View(category);
         }
