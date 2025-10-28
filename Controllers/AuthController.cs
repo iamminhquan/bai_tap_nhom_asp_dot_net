@@ -15,6 +15,9 @@ namespace BaiTapNhom02_Lan_02.Controllers
             return View();
         }
 
+        // Minh Quân
+        // Thay thế đối tượng kết nối bằng AppDbContext.
+        // Ngày chỉnh sửa: 28/10/2025 - 01:09 PM.
         [HttpPost]
         public IActionResult Login(string email, string password)
         {
